@@ -8,7 +8,7 @@ async def test(loop):
     await orm.create_pool(loop=loop, user="bugtree", password="bugtree", db ="webapp")
     #await orm.create_pool(loop=loop, user="xx", password="xx", db="webapp")
 
-    u = User(name="test", password="123", email="xxx@qqx.com", image="about:blank")
+    u = User(name="yyyy", password="123", email="yyy@qqx.com", image="about:blank")
 
     await u.save()
 

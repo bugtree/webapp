@@ -1,4 +1,5 @@
 # -*- coding:UTF-8 -*-
+# ORM -- Object Relational Mapping
 
 import logging, aiomysql, asyncio
 
